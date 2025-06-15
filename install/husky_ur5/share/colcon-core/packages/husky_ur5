@@ -1,0 +1,1 @@
+controller_manager:gazebo_ros:geometry_msgs:husky_description:joint_state_publisher:joint_state_publisher_gui:moveit_ros_planning_interface:nav2_simple_commander:rclcpp:robot_state_publisher:rviz2:tf2:tf2_geometry_msgs:tf2_ros:ur_description

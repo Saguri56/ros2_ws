@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: odom-bridge
+Version: 0.0.0
+Summary: Bridge that republishes odom data from husky_velocity_controller to /odom
+Home-page: UNKNOWN
+Maintainer: user
+Maintainer-email: user@todo.todo
+License: TODO
+Platform: UNKNOWN
+
+UNKNOWN
+

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/PKG-INFO
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/SOURCES.txt
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/dependency_links.txt
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/entry_points.txt
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/requires.txt
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/top_level.txt
+../build/cmd_vel_bridge/cmd_vel_bridge.egg-info/zip-safe
+cmd_vel_bridge/__init__.py
+cmd_vel_bridge/cmd_vel_bridge.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

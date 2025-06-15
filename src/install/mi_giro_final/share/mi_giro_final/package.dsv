@@ -1,0 +1,6 @@
+source;share/mi_giro_final/hook/pythonpath.ps1
+source;share/mi_giro_final/hook/pythonpath.dsv
+source;share/mi_giro_final/hook/pythonpath.sh
+source;share/mi_giro_final/hook/ament_prefix_path.ps1
+source;share/mi_giro_final/hook/ament_prefix_path.dsv
+source;share/mi_giro_final/hook/ament_prefix_path.sh

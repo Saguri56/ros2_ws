@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: husky_ur5
+    relative_path: urdf/husky_ur5_gazebo.urdf.xacro
+  srdf:
+    relative_path: config/husky_ur5_gazebo.srdf
+  package_settings:
+    author_name: Salvador Guerra Rivera
+    author_email: saguriguerra@gmail.com
+    generated_timestamp: 1745340705

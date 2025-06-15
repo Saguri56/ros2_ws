@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/mi_giro_final/mi_giro_final.egg-info/PKG-INFO
+../build/mi_giro_final/mi_giro_final.egg-info/SOURCES.txt
+../build/mi_giro_final/mi_giro_final.egg-info/dependency_links.txt
+../build/mi_giro_final/mi_giro_final.egg-info/entry_points.txt
+../build/mi_giro_final/mi_giro_final.egg-info/requires.txt
+../build/mi_giro_final/mi_giro_final.egg-info/top_level.txt
+../build/mi_giro_final/mi_giro_final.egg-info/zip-safe
+mi_giro_final/__init__.py
+mi_giro_final/spin_towards_point.py
+resource/mi_giro_final
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

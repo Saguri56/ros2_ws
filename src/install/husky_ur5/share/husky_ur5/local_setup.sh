@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/husky_ur5/ament_cmake_environment_hooks/local_setup.sh

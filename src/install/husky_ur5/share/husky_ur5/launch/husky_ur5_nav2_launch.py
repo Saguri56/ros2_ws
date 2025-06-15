@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/husky_ur5/launch/husky_ur5_nav2_launch.py

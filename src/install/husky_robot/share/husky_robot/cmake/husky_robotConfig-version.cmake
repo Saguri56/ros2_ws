@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/husky_robot/ament_cmake_core/husky_robotConfig-version.cmake

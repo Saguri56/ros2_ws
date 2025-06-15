@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating odom_bridge.egg-info
+writing odom_bridge.egg-info/PKG-INFO
+writing dependency_links to odom_bridge.egg-info/dependency_links.txt
+writing entry points to odom_bridge.egg-info/entry_points.txt
+writing requirements to odom_bridge.egg-info/requires.txt
+writing top-level names to odom_bridge.egg-info/top_level.txt
+writing manifest file 'odom_bridge.egg-info/SOURCES.txt'
+reading manifest file 'odom_bridge.egg-info/SOURCES.txt'
+writing manifest file 'odom_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/useradd/ros2_ws/src/install/odom_bridge/lib/python3.10/site-packages/odom-bridge.egg-link (link to .)
+Installing odom_bridge script to /home/useradd/ros2_ws/src/install/odom_bridge/lib/odom_bridge
+
+Installed /home/useradd/ros2_ws/src/build/odom_bridge
+running symlink_data
+creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index
+creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index
+creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/useradd/ros2_ws/src/build/odom_bridge/resource/odom_bridge -> /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/useradd/ros2_ws/src/build/odom_bridge/package.xml -> /home/useradd/ros2_ws/src/install/odom_bridge/share/odom_bridge

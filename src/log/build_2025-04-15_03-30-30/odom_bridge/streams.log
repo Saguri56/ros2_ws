@@ -1,0 +1,24 @@
+[1.106s] Invoking command in '/home/useradd/ros2_ws/src/build/odom_bridge': PYTHONPATH=/home/useradd/ros2_ws/src/build/odom_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/odom_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/useradd/ros2_ws/src/build/odom_bridge/build --no-deps symlink_data
+[1.336s] running develop
+[1.467s] running egg_info
+[1.467s] creating odom_bridge.egg-info
+[1.467s] writing odom_bridge.egg-info/PKG-INFO
+[1.468s] writing dependency_links to odom_bridge.egg-info/dependency_links.txt
+[1.468s] writing entry points to odom_bridge.egg-info/entry_points.txt
+[1.468s] writing requirements to odom_bridge.egg-info/requires.txt
+[1.469s] writing top-level names to odom_bridge.egg-info/top_level.txt
+[1.469s] writing manifest file 'odom_bridge.egg-info/SOURCES.txt'
+[1.470s] reading manifest file 'odom_bridge.egg-info/SOURCES.txt'
+[1.470s] writing manifest file 'odom_bridge.egg-info/SOURCES.txt'
+[1.472s] running build_ext
+[1.472s] Creating /home/useradd/ros2_ws/src/install/odom_bridge/lib/python3.10/site-packages/odom-bridge.egg-link (link to .)
+[1.473s] Installing odom_bridge script to /home/useradd/ros2_ws/src/install/odom_bridge/lib/odom_bridge
+[1.473s] 
+[1.473s] Installed /home/useradd/ros2_ws/src/build/odom_bridge
+[1.474s] running symlink_data
+[1.474s] creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index
+[1.474s] creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index
+[1.474s] creating /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index/packages
+[1.474s] symbolically linking /home/useradd/ros2_ws/src/build/odom_bridge/resource/odom_bridge -> /home/useradd/ros2_ws/src/install/odom_bridge/share/ament_index/resource_index/packages
+[1.475s] symbolically linking /home/useradd/ros2_ws/src/build/odom_bridge/package.xml -> /home/useradd/ros2_ws/src/install/odom_bridge/share/odom_bridge
+[1.511s] Invoked command in '/home/useradd/ros2_ws/src/build/odom_bridge' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/odom_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/odom_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/useradd/ros2_ws/src/build/odom_bridge/build --no-deps symlink_data

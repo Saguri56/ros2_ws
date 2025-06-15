@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/husky_msgs/rosidl_generator_py/husky_msgs/__init__.py

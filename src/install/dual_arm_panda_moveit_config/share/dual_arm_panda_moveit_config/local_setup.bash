@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/dual_arm_panda_moveit_config/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,245 @@
+[0.058s] Invoking command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/aws-robomaker-small-warehouse-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[1.820s] -- The CXX compiler identification is GNU 11.4.0
+[2.953s] -- Detecting C compiler ABI info
+[3.240s] -- Detecting C compiler ABI info - done
+[3.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.247s] -- Detecting C compile features
+[3.247s] -- Detecting C compile features - done
+[3.249s] -- Detecting CXX compiler ABI info
+[3.401s] -- Detecting CXX compiler ABI info - done
+[3.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.408s] -- Detecting CXX compile features
+[3.408s] -- Detecting CXX compile features - done
+[3.413s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.764s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.997s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.009s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.026s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.049s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.177s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.189s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.682s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.196s] -- Looking for pthread.h
+[12.363s] -- Looking for pthread.h - found
+[12.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.476s] -- Found Threads: TRUE  
+[12.561s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[12.562s] -- Checking for module 'bullet>=2.82'
+[12.578s] --   Found bullet, version 3.05
+[12.852s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[12.919s] -- Found assimp: /usr/include (found version "5.2.0") 
+[12.969s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[13.020s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[13.358s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[13.370s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.384s] -- Searching for dependencies of ignition-math6
+[13.387s] -- Looking for OGRE...
+[13.387s] -- OGRE_PREFIX_WATCH changed.
+[13.392s] -- Checking for module 'OGRE'
+[13.405s] --   Found OGRE, version 1.9.0
+[13.432s] -- Found Ogre Ghadamon (1.9.0)
+[13.969s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[13.978s] -- Looking for OGRE_Paging...
+[14.312s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[14.312s] -- Looking for OGRE_Terrain...
+[14.758s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[14.758s] -- Looking for OGRE_Property...
+[15.303s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[15.303s] -- Looking for OGRE_RTShaderSystem...
+[15.798s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[15.798s] -- Looking for OGRE_Volume...
+[16.117s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[16.117s] -- Looking for OGRE_Overlay...
+[16.703s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[32.982s] -- Looking for ignition-math6 -- found version 6.15.1
+[32.986s] -- Looking for ignition-transport8 -- found version 8.2.1
+[32.987s] -- Searching for dependencies of ignition-transport8
+[34.802s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[35.680s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[35.685s] -- Checking for module 'libzmq >= 4'
+[35.697s] --   Found libzmq , version 4.3.4
+[35.723s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[35.787s] -- Checking for module 'uuid'
+[35.799s] --   Found uuid, version 2.37.2
+[35.821s] -- Found UUID: TRUE  
+[35.826s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[35.826s] -- Searching for dependencies of ignition-msgs5
+[36.793s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.798s] -- Checking for module 'tinyxml2'
+[36.810s] --   Found tinyxml2, version 9.0.0
+[36.834s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[36.839s] -- Looking for ignition-common3 -- found version 3.14.0
+[36.839s] -- Searching for dependencies of ignition-common3
+[36.875s] -- Looking for dlfcn.h - found
+[36.909s] -- Looking for libdl - found
+[36.910s] -- Found DL: TRUE  
+[36.976s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[36.976s] -- Searching for <ignition-common3> component [graphics]
+[36.981s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[36.982s] -- Searching for dependencies of ignition-common3-graphics
+[36.982s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.987s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[36.988s] -- Searching for dependencies of ignition-fuel_tools4
+[38.696s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[38.715s] -- Checking for module 'jsoncpp'
+[38.732s] --   Found jsoncpp, version 1.9.5
+[38.761s] -- Found JSONCPP: TRUE  
+[38.766s] -- Checking for module 'libzip'
+[38.778s] --   Found libzip, version 1.7.3
+[38.801s] -- Found ZIP: TRUE  
+[38.802s] -- Looking for ignition-common3 -- found version 3.14.0
+[38.802s] -- Looking for ignition-math6 -- found version 6.15.1
+[38.802s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[38.808s] -- Gazebo version: 11.10
+[38.809s] -- Checking for module 'tbb'
+[38.821s] --   Found tbb, version 2021.5.0
+[38.914s] -- Configuring done
+[38.918s] -- Generating done
+[38.921s] -- Build files have been written to: /home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world
+[38.932s] Invoked command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/aws-robomaker-small-warehouse-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world
+[38.934s] Invoking command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[38.965s] Invoked command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[38.967s] Invoking command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world
+[38.971s] -- Install configuration: ""
+[38.972s] -- Execute custom install script
+[38.973s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/no_roof_small_warehouse.launch.py
+[38.979s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse.launch - copia.py:Zone.Identifier
+[38.985s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse.launch.py
+[38.991s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/warehouse_ros2.launch.py
+[39.015s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/.DS_Store
+[39.021s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[39.027s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[39.033s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[39.039s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[39.045s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[39.051s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+[39.057s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[39.063s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[39.069s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[39.075s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[39.080s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[39.086s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[39.092s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[39.098s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[39.104s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[39.110s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[39.116s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[39.123s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[39.128s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[39.134s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[39.141s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[39.146s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[39.152s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[39.158s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[39.164s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[39.170s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[39.175s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[39.181s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[39.187s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[39.193s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[39.199s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[39.205s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[39.211s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[39.216s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[39.222s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[39.228s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[39.234s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[39.241s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+[39.247s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[39.253s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[39.259s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[39.265s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[39.270s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[39.276s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+[39.284s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[39.293s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[39.303s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[39.313s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[39.325s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+[39.341s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[39.360s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[39.385s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[39.406s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[39.425s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[39.442s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[39.457s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[39.466s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[39.472s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[39.484s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[39.493s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[39.500s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[39.508s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+[39.515s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[39.526s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[39.536s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[39.546s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[39.560s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[39.575s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[39.592s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[39.609s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[39.619s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[39.628s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[39.639s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[39.650s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[39.658s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[39.664s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[39.670s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[39.677s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[39.684s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[39.692s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[39.698s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[39.704s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[39.710s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[39.716s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[39.722s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[39.728s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[39.734s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[39.739s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[39.745s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[39.751s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[39.757s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[39.762s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[39.768s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[39.774s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[39.780s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[39.786s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[39.791s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.config
+[39.797s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[39.807s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[39.813s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse.world
+[39.819s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse_fixed_valid.world
+[39.825s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse_fixed_valid.world:Zone.Identifier
+[39.831s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse_fixed.world:Zone.Identifier
+[39.838s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/.DS_Store
+[39.844s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.pgm
+[39.850s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.yaml
+[39.856s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.pgm
+[39.862s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.yaml
+[39.867s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.pgm
+[39.874s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.png
+[39.880s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz/basic_data.rviz
+[39.886s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+[39.892s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_warehouse_world
+[39.898s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_warehouse_world
+[39.904s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
+[39.911s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.dsv
+[39.917s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.sh
+[39.923s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.dsv
+[39.929s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.bash
+[39.935s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.sh
+[39.941s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.zsh
+[39.947s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.dsv
+[39.953s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv
+[39.959s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/packages/aws_robomaker_small_warehouse_world
+[39.964s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.971s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+[39.976s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+[39.982s] -- Symlinking: /home/useradd/ros2_ws/src/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.xml
+[39.990s] Invoked command in '/home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/aws_robomaker_small_warehouse_world

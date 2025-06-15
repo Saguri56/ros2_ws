@@ -1,0 +1,31 @@
+[3.759s] Invoking command in '/home/useradd/ros2_ws/src/robot_navigation': PYTHONPATH=/home/useradd/ros2_ws/src/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_navigation build --build-base /home/useradd/ros2_ws/src/build/robot_navigation/build install --record /home/useradd/ros2_ws/src/build/robot_navigation/install.log --single-version-externally-managed
+[4.304s] running egg_info
+[4.306s] creating ../build/robot_navigation/robot_navigation.egg-info
+[4.309s] writing ../build/robot_navigation/robot_navigation.egg-info/PKG-INFO
+[4.310s] writing dependency_links to ../build/robot_navigation/robot_navigation.egg-info/dependency_links.txt
+[4.313s] writing entry points to ../build/robot_navigation/robot_navigation.egg-info/entry_points.txt
+[4.313s] writing requirements to ../build/robot_navigation/robot_navigation.egg-info/requires.txt
+[4.313s] writing top-level names to ../build/robot_navigation/robot_navigation.egg-info/top_level.txt
+[4.313s] writing manifest file '../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[4.314s] reading manifest file '../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[4.314s] writing manifest file '../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[4.314s] running build
+[4.314s] running build_py
+[4.314s] creating /home/useradd/ros2_ws/src/build/robot_navigation/build
+[4.315s] creating /home/useradd/ros2_ws/src/build/robot_navigation/build/lib
+[4.315s] creating /home/useradd/ros2_ws/src/build/robot_navigation/build/lib/robot_navigation
+[4.316s] copying robot_navigation/navigate_to_goal.py -> /home/useradd/ros2_ws/src/build/robot_navigation/build/lib/robot_navigation
+[4.318s] copying robot_navigation/__init__.py -> /home/useradd/ros2_ws/src/build/robot_navigation/build/lib/robot_navigation
+[4.319s] running install
+[4.319s] running install_lib
+[4.319s] creating /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[4.320s] copying /home/useradd/ros2_ws/src/build/robot_navigation/build/lib/robot_navigation/navigate_to_goal.py -> /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[4.320s] copying /home/useradd/ros2_ws/src/build/robot_navigation/build/lib/robot_navigation/__init__.py -> /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[4.321s] byte-compiling /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation/navigate_to_goal.py to navigate_to_goal.cpython-310.pyc
+[4.324s] byte-compiling /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation/__init__.py to __init__.cpython-310.pyc
+[4.324s] running install_egg_info
+[4.327s] Copying ../build/robot_navigation/robot_navigation.egg-info to /home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages/robot_navigation-0.0.0-py3.10.egg-info
+[4.330s] running install_scripts
+[4.376s] Installing navigate_to_goal script to /home/useradd/ros2_ws/src/install/robot_navigation/lib/robot_navigation
+[4.377s] writing list of installed files to '/home/useradd/ros2_ws/src/build/robot_navigation/install.log'
+[4.454s] Invoked command in '/home/useradd/ros2_ws/src/robot_navigation' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_navigation build --build-base /home/useradd/ros2_ws/src/build/robot_navigation/build install --record /home/useradd/ros2_ws/src/build/robot_navigation/install.log --single-version-externally-managed

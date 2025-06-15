@@ -1,0 +1,3 @@
+[console_scripts]
+spin_towards_point = mi_giro_final.spin_towards_point:main
+

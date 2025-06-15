@@ -1,0 +1,3 @@
+[console_scripts]
+odom_bridge = odom_bridge.odom_bridge:main
+

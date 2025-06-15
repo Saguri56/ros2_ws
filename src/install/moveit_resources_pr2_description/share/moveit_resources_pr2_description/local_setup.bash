@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/moveit_resources_pr2_description/ament_cmake_environment_hooks/local_setup.bash

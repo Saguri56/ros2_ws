@@ -1,0 +1,77 @@
+[0.084s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/husky/husky_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/husky_description
+[0.425s] -- The C compiler identification is GNU 11.4.0
+[1.879s] -- The CXX compiler identification is GNU 11.4.0
+[3.122s] -- Detecting C compiler ABI info
+[3.389s] -- Detecting C compiler ABI info - done
+[3.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.395s] -- Detecting C compile features
+[3.396s] -- Detecting C compile features - done
+[3.399s] -- Detecting CXX compiler ABI info
+[3.547s] -- Detecting CXX compiler ABI info - done
+[3.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.554s] -- Detecting CXX compile features
+[3.555s] -- Detecting CXX compile features - done
+[3.558s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.773s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.850s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.906s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[5.998s] -- Configuring done
+[6.001s] -- Generating done
+[6.002s] -- Build files have been written to: /home/useradd/ros2_ws/src/build/husky_description
+[6.008s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/husky/husky_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/husky_description
+[6.009s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/husky_description -- -j16 -l16
+[6.038s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/husky_description -- -j16 -l16
+[6.040s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/husky_description
+[6.045s] -- Install configuration: ""
+[6.046s] -- Execute custom install script
+[6.047s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/launch/description.launch
+[6.056s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/launch/description_launch.py
+[6.062s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.dae
+[6.068s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.stl
+[6.074s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.dae
+[6.080s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.stl
+[6.086s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/lidar_mount.stl
+[6.092s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.dae
+[6.098s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.stl
+[6.106s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/base_link.dae
+[6.115s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/base_link.stl
+[6.121s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/bumper.dae
+[6.127s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/bumper_extension.dae
+[6.134s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/large_top_plate.dae
+[6.141s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/large_top_plate_collision.stl
+[6.149s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/top_chassis.dae
+[6.154s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/top_chassis.stl
+[6.161s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/top_plate.dae
+[6.168s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/top_plate.stl
+[6.174s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/user_rail.dae
+[6.180s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/user_rail.stl
+[6.186s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/wheel.dae
+[6.192s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/meshes/wheel.stl
+[6.199s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/accessories/intel_realsense.urdf.xacro
+[6.206s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/accessories/minimal_lms1xx.urdf.xacro
+[6.215s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/accessories/sensor_arch.urdf.xacro
+[6.221s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/accessories/sick_lms1xx_mount.urdf - copia.xacro:Zone.Identifier
+[6.229s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/accessories/sick_lms1xx_mount.urdf.xacro
+[6.235s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/decorations.urdf.xacro
+[6.241s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/empty.urdf
+[6.250s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/husky.urdf.xacro
+[6.256s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/husky_macro.urdf.xacro
+[6.262s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/husky_ur5.xacro
+[6.269s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/urdf/wheel.urdf.xacro
+[6.278s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/ament_index/resource_index/package_run_dependencies/husky_description
+[6.290s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/ament_index/resource_index/parent_prefix_path/husky_description
+[6.297s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/environment/ament_prefix_path.sh
+[6.309s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/environment/ament_prefix_path.dsv
+[6.315s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/environment/path.sh
+[6.326s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/environment/path.dsv
+[6.336s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/local_setup.bash
+[6.345s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/local_setup.sh
+[6.353s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/local_setup.zsh
+[6.361s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/local_setup.dsv
+[6.367s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/package.dsv
+[6.374s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/ament_index/resource_index/packages/husky_description
+[6.381s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.388s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake
+[6.395s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/cmake/husky_descriptionConfig-version.cmake
+[6.405s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_description/share/husky_description/package.xml
+[6.412s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/husky_description

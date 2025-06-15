@@ -1,0 +1,33 @@
+[3.803s] Invoking command in '/home/useradd/ros2_ws/src/robot_initial_pose': PYTHONPATH=/home/useradd/ros2_ws/src/build/robot_initial_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_initial_pose build --build-base /home/useradd/ros2_ws/src/build/robot_initial_pose/build install --record /home/useradd/ros2_ws/src/build/robot_initial_pose/install.log --single-version-externally-managed install_data
+[4.372s] running egg_info
+[4.373s] creating ../build/robot_initial_pose/robot_initial_pose.egg-info
+[4.374s] writing ../build/robot_initial_pose/robot_initial_pose.egg-info/PKG-INFO
+[4.374s] writing dependency_links to ../build/robot_initial_pose/robot_initial_pose.egg-info/dependency_links.txt
+[4.376s] writing entry points to ../build/robot_initial_pose/robot_initial_pose.egg-info/entry_points.txt
+[4.376s] writing requirements to ../build/robot_initial_pose/robot_initial_pose.egg-info/requires.txt
+[4.376s] writing top-level names to ../build/robot_initial_pose/robot_initial_pose.egg-info/top_level.txt
+[4.376s] writing manifest file '../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+[4.379s] reading manifest file '../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+[4.380s] writing manifest file '../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+[4.380s] running build
+[4.381s] running build_py
+[4.381s] creating /home/useradd/ros2_ws/src/build/robot_initial_pose/build
+[4.381s] creating /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib
+[4.381s] creating /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib/robot_initial_pose
+[4.382s] copying robot_initial_pose/initial_pose_publisher.py -> /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib/robot_initial_pose
+[4.383s] copying robot_initial_pose/__init__.py -> /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib/robot_initial_pose
+[4.383s] running install
+[4.384s] running install_lib
+[4.387s] creating /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+[4.388s] copying /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib/robot_initial_pose/initial_pose_publisher.py -> /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+[4.388s] copying /home/useradd/ros2_ws/src/build/robot_initial_pose/build/lib/robot_initial_pose/__init__.py -> /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+[4.389s] byte-compiling /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose/initial_pose_publisher.py to initial_pose_publisher.cpython-310.pyc
+[4.391s] byte-compiling /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose/__init__.py to __init__.cpython-310.pyc
+[4.392s] running install_data
+[4.392s] copying package.xml -> /home/useradd/ros2_ws/src/install/robot_initial_pose/share/robot_initial_pose
+[4.393s] running install_egg_info
+[4.398s] Copying ../build/robot_initial_pose/robot_initial_pose.egg-info to /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose-0.0.0-py3.10.egg-info
+[4.399s] running install_scripts
+[4.447s] Installing initial_pose_publisher script to /home/useradd/ros2_ws/src/install/robot_initial_pose/lib/robot_initial_pose
+[4.447s] writing list of installed files to '/home/useradd/ros2_ws/src/build/robot_initial_pose/install.log'
+[4.571s] Invoked command in '/home/useradd/ros2_ws/src/robot_initial_pose' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/robot_initial_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/robot_initial_pose/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_initial_pose build --build-base /home/useradd/ros2_ws/src/build/robot_initial_pose/build install --record /home/useradd/ros2_ws/src/build/robot_initial_pose/install.log --single-version-externally-managed install_data

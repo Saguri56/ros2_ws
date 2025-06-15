@@ -1,0 +1,230 @@
+[0.314s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_ur5': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/husky_ur5 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/husky_ur5
+[0.809s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.809s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.809s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.809s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.809s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.167s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.173s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.187s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.320s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.327s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.283s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.312s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.314s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.319s] -- Searching for dependencies of ignition-math6
+[8.321s] -- Looking for OGRE...
+[8.327s] -- Found Ogre Ghadamon (1.9.0)
+[8.327s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.338s] -- Looking for OGRE_Paging...
+[8.338s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.338s] -- Looking for OGRE_Terrain...
+[8.338s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.339s] -- Looking for OGRE_Property...
+[8.339s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.339s] -- Looking for OGRE_RTShaderSystem...
+[8.339s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.339s] -- Looking for OGRE_Volume...
+[8.339s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.340s] -- Looking for OGRE_Overlay...
+[8.340s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[41.149s] -- Looking for ignition-math6 -- found version 6.15.1
+[41.149s] -- Looking for ignition-transport8 -- found version 8.2.1
+[41.149s] -- Searching for dependencies of ignition-transport8
+[43.012s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[44.792s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[44.798s] -- Checking for module 'libzmq >= 4'
+[44.815s] --   Found libzmq , version 4.3.4
+[44.855s] -- Checking for module 'uuid'
+[44.871s] --   Found uuid, version 2.37.2
+[44.900s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[44.901s] -- Searching for dependencies of ignition-msgs5
+[45.546s] -- Looking for ignition-math6 -- found version 6.15.1
+[45.551s] -- Checking for module 'tinyxml2'
+[45.567s] --   Found tinyxml2, version 9.0.0
+[45.598s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[45.599s] -- Looking for ignition-common3 -- found version 3.14.0
+[45.600s] -- Searching for dependencies of ignition-common3
+[45.600s] -- Looking for dlfcn.h - found
+[45.600s] -- Looking for libdl - found
+[45.756s] -- Searching for <ignition-common3> component [graphics]
+[45.756s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[45.756s] -- Searching for dependencies of ignition-common3-graphics
+[45.757s] -- Looking for ignition-math6 -- found version 6.15.1
+[45.758s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[45.758s] -- Searching for dependencies of ignition-fuel_tools4
+[48.004s] -- Checking for module 'jsoncpp'
+[48.020s] --   Found jsoncpp, version 1.9.5
+[48.058s] -- Checking for module 'libzip'
+[48.075s] --   Found libzip, version 1.7.3
+[48.109s] -- Looking for ignition-common3 -- found version 3.14.0
+[48.110s] -- Looking for ignition-math6 -- found version 6.15.1
+[48.110s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[48.111s] -- Gazebo version: 11.10
+[48.115s] -- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)
+[48.116s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[48.146s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[48.148s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[50.300s] -- Found husky_description: 1.0.8 (/home/useradd/ros2_ws/src/install/husky_description/share/husky_description/cmake)
+[50.302s] -- Found ur_description: 2.1.9 (/home/useradd/ros2_ws/src/install/ur_description/share/ur_description/cmake)
+[50.302s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[50.306s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[50.307s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[50.345s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[50.345s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[50.345s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[50.450s] -- Added test 'copyright' to check source files copyright and LICENSE
+[50.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[50.474s] -- Added test 'lint_cmake' to check CMake code style
+[50.476s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[50.481s] -- Added test 'xmllint' to check XML markup files
+[50.484s] -- Configuring done
+[50.498s] -- Generating done
+[50.504s] -- Build files have been written to: /home/useradd/ros2_ws/src/build/husky_ur5
+[50.526s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_ur5' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/husky_ur5 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/husky_ur5
+[50.529s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_ur5': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/husky_ur5 -- -j16 -l16
+[50.570s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_ur5' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/husky_ur5 -- -j16 -l16
+[50.574s] Invoking command in '/home/useradd/ros2_ws/src/build/husky_ur5': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/husky_ur5
+[50.579s] -- Install configuration: ""
+[50.579s] -- Execute custom install script
+[50.580s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[50.580s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[50.580s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[50.581s]   Use the cmake_policy command to set the policy and suppress this warning.
+[50.581s] Call Stack (most recent call first):
+[50.581s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[50.581s]   cmake_install.cmake:46 (include)
+[50.581s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[50.581s] [0m
+[50.581s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/build/.built_by
+[50.581s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/build/COLCON_IGNORE
+[50.583s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/display_launch.py
+[50.584s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/gazebo_launch - copia.py:Zone.Identifier
+[50.584s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/gazebo_launch.py
+[50.584s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/huksy_ur5.rviz
+[50.584s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/huksy_ur5.rviz:Zone.Identifier
+[50.585s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/husky_ur5_nav2_launch.py
+[50.586s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/.colcon_install_layout
+[50.587s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/COLCON_IGNORE
+[50.587s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/_local_setup_util_ps1.py
+[50.588s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/_local_setup_util_sh.py
+[50.589s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/local_setup.bash
+[50.589s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/local_setup.ps1
+[50.590s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/local_setup.sh
+[50.590s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/local_setup.zsh
+[50.591s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/setup.bash
+[50.591s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/setup.ps1
+[50.592s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/setup.sh
+[50.592s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/install/setup.zsh
+[50.593s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/COLCON_IGNORE
+[50.594s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/build_2025-01-24_13-21-43/events.log
+[50.595s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/build_2025-01-24_13-21-43/logger_all.log
+[50.596s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/build_2025-03-18_13-07-01/events.log
+[50.596s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/build_2025-03-18_13-07-01/logger_all.log
+[50.597s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/latest/events.log
+[50.598s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/latest/logger_all.log
+[50.599s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/latest_build/events.log
+[50.600s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/log/latest_build/logger_all.log
+[50.600s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/nav2_almacen.launch.py
+[50.608s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/rsp.launch.py
+[50.609s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/slam.launch.py
+[50.609s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/turtlebot_almacen.launch.py
+[50.623s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/launch/ur_controllers.yaml:Zone.Identifier
+[50.624s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[50.625s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[50.625s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[50.625s]   Use the cmake_policy command to set the policy and suppress this warning.
+[50.625s] Call Stack (most recent call first):
+[50.626s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[50.626s]   cmake_install.cmake:46 (include)
+[50.626s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[50.626s] [0m
+[50.626s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/build/.built_by
+[50.626s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/build/COLCON_IGNORE
+[50.627s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/complete_husky_ur5.urdf
+[50.629s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/complete_husky_ur5_gazebo.urdf
+[50.630s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/frames_2025-01-24_22.03.35.gv
+[50.631s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/frames_2025-01-24_22.03.35.pdf
+[50.632s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/husky_ur5.urdf - copia.xml:Zone.Identifier
+[50.632s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/husky_ur5.urdf.xml
+[50.633s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/husky_ur5_gazebo.urdf
+[50.635s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/husky_ur5_gazebo.urdf.xacro
+[50.636s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/husky_ur5_gazebo.urdf.xml
+[50.638s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/.colcon_install_layout
+[50.639s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/COLCON_IGNORE
+[50.640s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/_local_setup_util_ps1.py
+[50.641s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/_local_setup_util_sh.py
+[50.643s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/local_setup.bash
+[50.644s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/local_setup.ps1
+[50.645s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/local_setup.sh
+[50.646s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/local_setup.zsh
+[50.648s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/setup.bash
+[50.648s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/setup.ps1
+[50.649s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/setup.sh
+[50.649s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/install/setup.zsh
+[50.650s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/COLCON_IGNORE
+[50.651s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_12-54-02/events.log
+[50.652s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_12-54-02/logger_all.log
+[50.654s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_13-29-50/events.log
+[50.655s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_13-29-50/logger_all.log
+[50.657s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_22-06-15/events.log
+[50.657s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-24_22-06-15/logger_all.log
+[50.659s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-25_13-11-24/events.log
+[50.660s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-25_13-11-24/logger_all.log
+[50.661s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-25_13-25-53/events.log
+[50.662s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-25_13-25-53/logger_all.log
+[50.664s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-26_14-26-03/events.log
+[50.665s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/build_2025-01-26_14-26-03/logger_all.log
+[50.666s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/latest/events.log
+[50.667s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/latest/logger_all.log
+[50.668s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/latest_build/events.log
+[50.669s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/log/latest_build/logger_all.log
+[50.669s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/output.urdf
+[50.670s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/urdf/robot_description_output.urdf
+[50.671s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/bt_navigator.yaml
+[50.673s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/control - copia.yaml:Zone.Identifier
+[50.673s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/control.yaml
+[50.673s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/control.yaml:Zone.Identifier
+[50.674s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/costmap_common.yaml
+[50.675s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/ekf.yaml
+[50.676s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/global_costmap.yaml
+[50.677s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/husky_ur5_controllers - copia.yaml:Zone.Identifier
+[50.678s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/husky_ur5_controllers.yaml
+[50.678s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/initial_positions.yaml
+[50.679s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/initial_positions.yaml:Zone.Identifier
+[50.680s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/local_costmap.yaml
+[50.680s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/nav2_params.yaml
+[50.681s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/slam_params.yaml
+[50.681s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/ur5_control.yaml
+[50.682s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/config/ur_controllers.yaml
+[50.683s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/almacen.world
+[50.684s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/clearpath_playpen.world
+[50.684s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/clearpath_playpen.world:Zone.Identifier
+[50.685s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/factory.world
+[50.685s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/factory.world:Zone.Identifier
+[50.686s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/worlds/warehouse.world
+[50.687s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/almacen_mapa_v2.pgm
+[50.699s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/almacen_mapa_v2.pgm:Zone.Identifier
+[50.709s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/almacen_mapa_v2.yaml
+[50.720s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/almacen_mapa_v2.yaml:Zone.Identifier
+[50.729s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/map.pgm
+[50.738s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/maps/map.yaml
+[50.748s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/ament_index/resource_index/package_run_dependencies/husky_ur5
+[50.750s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/ament_index/resource_index/parent_prefix_path/husky_ur5
+[50.751s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/environment/ament_prefix_path.sh
+[50.751s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/environment/ament_prefix_path.dsv
+[50.752s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/environment/path.sh
+[50.753s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/environment/path.dsv
+[50.754s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/local_setup.bash
+[50.755s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/local_setup.sh
+[50.755s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/local_setup.zsh
+[50.756s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/local_setup.dsv
+[50.756s] -- Symlinking: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/package.dsv
+[50.767s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/ament_index/resource_index/packages/husky_ur5
+[50.768s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/cmake/husky_ur5Config.cmake
+[50.768s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/cmake/husky_ur5Config-version.cmake
+[50.768s] -- Up-to-date symlink: /home/useradd/ros2_ws/src/install/husky_ur5/share/husky_ur5/package.xml
+[50.773s] Invoked command in '/home/useradd/ros2_ws/src/build/husky_ur5' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/src/install/ur_description:/home/useradd/ros2_ws/src/install/husky_description:/home/useradd/ros2_ws/install/ur_simulation_gazebo:/home/useradd/ros2_ws/install/husky_ur5_moveit_config:/home/useradd/ros2_ws/install/husky_ur5_moveit:/home/useradd/ros2_ws/install/husky_ur5:/home/useradd/ros2_ws/install/ur_description:/home/useradd/ros2_ws/install/robotiq_description:/home/useradd/ros2_ws/install/robotiq_controllers:/home/useradd/ros2_ws/install/moveit_resources:/home/useradd/ros2_ws/install/moveit_resources_pr2_description:/home/useradd/ros2_ws/install/moveit_resources_panda_moveit_config:/home/useradd/ros2_ws/install/dual_arm_panda_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_panda_description:/home/useradd/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/useradd/ros2_ws/install/moveit_resources_fanuc_description:/home/useradd/ros2_ws/install/husky_desktop:/home/useradd/ros2_ws/install/husky_viz:/home/useradd/ros2_ws/install/husky_simulator:/home/useradd/ros2_ws/install/husky_robot:/home/useradd/ros2_ws/install/husky_bringup:/home/useradd/ros2_ws/install/husky_base:/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ros2_ws/install/husky_gazebo:/home/useradd/ros2_ws/install/husky_control:/home/useradd/ros2_ws/install/husky_description:/home/useradd/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/husky_ur5

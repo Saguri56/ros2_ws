@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/husky_ur5/launch/install/setup.sh

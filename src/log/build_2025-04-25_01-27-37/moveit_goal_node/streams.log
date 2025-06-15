@@ -1,0 +1,42 @@
+[1.211s] Invoking command in '/home/useradd/ros2_ws/src/build/moveit_goal_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/moveit_goal_node -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/moveit_goal_node
+[2.929s] -- The C compiler identification is GNU 11.4.0
+[2.929s] -- The CXX compiler identification is GNU 11.4.0
+[2.936s] -- Detecting C compiler ABI info
+[3.383s] -- Detecting C compiler ABI info - done
+[3.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.388s] -- Detecting C compile features
+[3.410s] -- Detecting C compile features - done
+[3.418s] -- Detecting CXX compiler ABI info
+[3.730s] -- Detecting CXX compiler ABI info - done
+[3.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.741s] -- Detecting CXX compile features
+[3.742s] -- Detecting CXX compile features - done
+[3.803s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.650s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.942s] -- Added test 'lint_cmake' to check CMake code style
+[4.947s] -- Added test 'xmllint' to check XML markup files
+[4.955s] -- Configuring done
+[4.965s] -- Generating done
+[4.965s] -- Build files have been written to: /home/useradd/ros2_ws/src/build/moveit_goal_node
+[4.977s] Invoked command in '/home/useradd/ros2_ws/src/build/moveit_goal_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/moveit_goal_node -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/src/install/moveit_goal_node
+[4.978s] Invoking command in '/home/useradd/ros2_ws/src/build/moveit_goal_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/moveit_goal_node -- -j16 -l16
+[5.054s] Invoked command in '/home/useradd/ros2_ws/src/build/moveit_goal_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/src/build/moveit_goal_node -- -j16 -l16
+[5.059s] Invoking command in '/home/useradd/ros2_ws/src/build/moveit_goal_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/moveit_goal_node
+[5.068s] -- Install configuration: ""
+[5.070s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/ament_index/resource_index/package_run_dependencies/moveit_goal_node
+[5.071s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/ament_index/resource_index/parent_prefix_path/moveit_goal_node
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/environment/ament_prefix_path.sh
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/environment/ament_prefix_path.dsv
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/environment/path.sh
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/environment/path.dsv
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/local_setup.bash
+[5.072s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/local_setup.sh
+[5.073s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/local_setup.zsh
+[5.073s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/local_setup.dsv
+[5.073s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/package.dsv
+[5.074s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/ament_index/resource_index/packages/moveit_goal_node
+[5.074s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/cmake/moveit_goal_nodeConfig.cmake
+[5.074s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/cmake/moveit_goal_nodeConfig-version.cmake
+[5.075s] -- Installing: /home/useradd/ros2_ws/src/install/moveit_goal_node/share/moveit_goal_node/package.xml
+[5.080s] Invoked command in '/home/useradd/ros2_ws/src/build/moveit_goal_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ros2_ws/install/twist_mux_bridge:/home/useradd/ros2_ws/install/robot_navigation:/home/useradd/ros2_ws/install/robot_initial_pose:/home/useradd/ros2_ws/install/odom_bridge:/home/useradd/ros2_ws/install/mi_giro_final:/home/useradd/ros2_ws/install/cmd_vel_bridge:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/src/build/moveit_goal_node

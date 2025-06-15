@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/husky_ur5/urdf/install/_local_setup_util_ps1.py

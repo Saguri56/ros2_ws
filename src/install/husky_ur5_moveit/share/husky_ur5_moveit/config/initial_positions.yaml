@@ -1,0 +1,10 @@
+# Default initial positions for husky_ur5_gazebo's ros2_control fake system
+
+initial_positions:
+  gripper_robotiq_85_left_knuckle_joint: 0
+  ur5_elbow_joint: 0
+  ur5_shoulder_lift_joint: -1.57
+  ur5_shoulder_pan_joint: 0
+  ur5_wrist_1_joint: -1.57
+  ur5_wrist_2_joint: 0
+  ur5_wrist_3_joint: 0

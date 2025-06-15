@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/useradd/ros2_ws/src/build/husky_base/libhusky_hardware.so" "TARGETS" "husky_hardware" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/husky_base")

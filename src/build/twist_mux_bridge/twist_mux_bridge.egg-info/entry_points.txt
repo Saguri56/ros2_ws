@@ -1,0 +1,3 @@
+[console_scripts]
+twist_bridge_node = twist_mux_bridge.twist_bridge_node:main
+

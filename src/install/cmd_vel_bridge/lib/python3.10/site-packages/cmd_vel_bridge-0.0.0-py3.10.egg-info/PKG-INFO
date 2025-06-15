@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cmd-vel-bridge
+Version: 0.0.0
+Summary: Bridge node to relay /cmd_vel to /husky_velocity_controller/cmd_vel_unstamped
+Home-page: UNKNOWN
+Maintainer: tu_nombre
+Maintainer-email: tu_email@ejemplo.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

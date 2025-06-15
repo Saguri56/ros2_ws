@@ -1,0 +1,37 @@
+[3.814s] Invoking command in '/home/useradd/ros2_ws/src/mi_giro_final': PYTHONPATH=/home/useradd/ros2_ws/src/build/mi_giro_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mi_giro_final build --build-base /home/useradd/ros2_ws/src/build/mi_giro_final/build install --record /home/useradd/ros2_ws/src/build/mi_giro_final/install.log --single-version-externally-managed install_data
+[4.363s] running egg_info
+[4.368s] creating ../build/mi_giro_final/mi_giro_final.egg-info
+[4.368s] writing ../build/mi_giro_final/mi_giro_final.egg-info/PKG-INFO
+[4.368s] writing dependency_links to ../build/mi_giro_final/mi_giro_final.egg-info/dependency_links.txt
+[4.369s] writing entry points to ../build/mi_giro_final/mi_giro_final.egg-info/entry_points.txt
+[4.369s] writing requirements to ../build/mi_giro_final/mi_giro_final.egg-info/requires.txt
+[4.369s] writing top-level names to ../build/mi_giro_final/mi_giro_final.egg-info/top_level.txt
+[4.369s] writing manifest file '../build/mi_giro_final/mi_giro_final.egg-info/SOURCES.txt'
+[4.374s] reading manifest file '../build/mi_giro_final/mi_giro_final.egg-info/SOURCES.txt'
+[4.377s] writing manifest file '../build/mi_giro_final/mi_giro_final.egg-info/SOURCES.txt'
+[4.377s] running build
+[4.377s] running build_py
+[4.377s] creating /home/useradd/ros2_ws/src/build/mi_giro_final/build
+[4.377s] creating /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib
+[4.378s] creating /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib/mi_giro_final
+[4.378s] copying mi_giro_final/__init__.py -> /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib/mi_giro_final
+[4.378s] copying mi_giro_final/spin_towards_point.py -> /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib/mi_giro_final
+[4.382s] running install
+[4.383s] running install_lib
+[4.383s] creating /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final
+[4.384s] copying /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib/mi_giro_final/__init__.py -> /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final
+[4.384s] copying /home/useradd/ros2_ws/src/build/mi_giro_final/build/lib/mi_giro_final/spin_towards_point.py -> /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final
+[4.384s] byte-compiling /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final/__init__.py to __init__.cpython-310.pyc
+[4.384s] byte-compiling /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final/spin_towards_point.py to spin_towards_point.cpython-310.pyc
+[4.391s] running install_data
+[4.391s] creating /home/useradd/ros2_ws/src/install/mi_giro_final/share/ament_index
+[4.391s] creating /home/useradd/ros2_ws/src/install/mi_giro_final/share/ament_index/resource_index
+[4.391s] creating /home/useradd/ros2_ws/src/install/mi_giro_final/share/ament_index/resource_index/packages
+[4.392s] copying resource/mi_giro_final -> /home/useradd/ros2_ws/src/install/mi_giro_final/share/ament_index/resource_index/packages
+[4.392s] copying package.xml -> /home/useradd/ros2_ws/src/install/mi_giro_final/share/mi_giro_final
+[4.392s] running install_egg_info
+[4.401s] Copying ../build/mi_giro_final/mi_giro_final.egg-info to /home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages/mi_giro_final-0.0.0-py3.10.egg-info
+[4.404s] running install_scripts
+[4.453s] Installing spin_towards_point script to /home/useradd/ros2_ws/src/install/mi_giro_final/lib/mi_giro_final
+[4.453s] writing list of installed files to '/home/useradd/ros2_ws/src/build/mi_giro_final/install.log'
+[4.545s] Invoked command in '/home/useradd/ros2_ws/src/mi_giro_final' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/mi_giro_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/mi_giro_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mi_giro_final build --build-base /home/useradd/ros2_ws/src/build/mi_giro_final/build install --record /home/useradd/ros2_ws/src/build/mi_giro_final/install.log --single-version-externally-managed install_data

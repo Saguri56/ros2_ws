@@ -1,0 +1,1 @@
+/home/useradd/ros2_ws/src/build/husky_msgs/rosidl_generator_cpp/husky_msgs/msg/detail/husky_status__type_support.hpp

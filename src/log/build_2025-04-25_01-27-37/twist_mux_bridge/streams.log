@@ -1,0 +1,36 @@
+[3.754s] Invoking command in '/home/useradd/ros2_ws/src/build/twist_mux_bridge': PYTHONPATH=/home/useradd/ros2_ws/src/build/twist_mux_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/useradd/ros2_ws/src/build/twist_mux_bridge/build
+[4.364s] running develop
+[4.724s] Removing /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist-mux-bridge.egg-link (link to .)
+[4.875s] Invoked command in '/home/useradd/ros2_ws/src/build/twist_mux_bridge' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/twist_mux_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/useradd/ros2_ws/src/build/twist_mux_bridge/build
+[4.882s] Invoking command in '/home/useradd/ros2_ws/src/twist_mux_bridge': PYTHONPATH=/home/useradd/ros2_ws/src/build/twist_mux_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/twist_mux_bridge build --build-base /home/useradd/ros2_ws/src/build/twist_mux_bridge/build install --record /home/useradd/ros2_ws/src/build/twist_mux_bridge/install.log --single-version-externally-managed install_data --force
+[5.386s] running egg_info
+[5.388s] writing ../build/twist_mux_bridge/twist_mux_bridge.egg-info/PKG-INFO
+[5.388s] writing dependency_links to ../build/twist_mux_bridge/twist_mux_bridge.egg-info/dependency_links.txt
+[5.389s] writing entry points to ../build/twist_mux_bridge/twist_mux_bridge.egg-info/entry_points.txt
+[5.391s] writing requirements to ../build/twist_mux_bridge/twist_mux_bridge.egg-info/requires.txt
+[5.391s] writing top-level names to ../build/twist_mux_bridge/twist_mux_bridge.egg-info/top_level.txt
+[5.395s] reading manifest file '../build/twist_mux_bridge/twist_mux_bridge.egg-info/SOURCES.txt'
+[5.397s] writing manifest file '../build/twist_mux_bridge/twist_mux_bridge.egg-info/SOURCES.txt'
+[5.397s] running build
+[5.398s] running build_py
+[5.398s] creating /home/useradd/ros2_ws/src/build/twist_mux_bridge/build
+[5.399s] creating /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib
+[5.399s] creating /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib/twist_mux_bridge
+[5.400s] copying twist_mux_bridge/__init__.py -> /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib/twist_mux_bridge
+[5.400s] copying twist_mux_bridge/twist_bridge_node.py -> /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib/twist_mux_bridge
+[5.403s] running install
+[5.404s] running install_lib
+[5.405s] creating /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge
+[5.406s] copying /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib/twist_mux_bridge/__init__.py -> /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge
+[5.406s] copying /home/useradd/ros2_ws/src/build/twist_mux_bridge/build/lib/twist_mux_bridge/twist_bridge_node.py -> /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge
+[5.407s] byte-compiling /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge/__init__.py to __init__.cpython-310.pyc
+[5.408s] byte-compiling /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge/twist_bridge_node.py to twist_bridge_node.cpython-310.pyc
+[5.408s] running install_data
+[5.409s] copying resource/twist_mux_bridge -> /home/useradd/ros2_ws/src/install/twist_mux_bridge/share/ament_index/resource_index/packages
+[5.413s] copying package.xml -> /home/useradd/ros2_ws/src/install/twist_mux_bridge/share/twist_mux_bridge
+[5.416s] running install_egg_info
+[5.420s] Copying ../build/twist_mux_bridge/twist_mux_bridge.egg-info to /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages/twist_mux_bridge-0.0.0-py3.10.egg-info
+[5.423s] running install_scripts
+[5.474s] Installing twist_bridge_node script to /home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/twist_mux_bridge
+[5.475s] writing list of installed files to '/home/useradd/ros2_ws/src/build/twist_mux_bridge/install.log'
+[5.559s] Invoked command in '/home/useradd/ros2_ws/src/twist_mux_bridge' returned '0': PYTHONPATH=/home/useradd/ros2_ws/src/build/twist_mux_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/useradd/ros2_ws/src/install/twist_mux_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/twist_mux_bridge build --build-base /home/useradd/ros2_ws/src/build/twist_mux_bridge/build install --record /home/useradd/ros2_ws/src/build/twist_mux_bridge/install.log --single-version-externally-managed install_data --force
