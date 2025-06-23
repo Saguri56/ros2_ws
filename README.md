@@ -24,7 +24,7 @@ ros2_ws/
 │   ├── Universal_Robots_ROS2_Gazebo_Simulation/
 │   ├── ur_description/
 │   └── husky/
-
+```
 ### **husky_ur5**
 
 El paquete **`husky_ur5`** integra la plataforma móvil **Husky** con el brazo robótico **UR5** en un sistema unificado. Este paquete proporciona los archivos necesarios para la simulación utilizando **ROS 2** y el entorno simulado en **Gazebo**. A continuación se describen los principales componentes de este paquete:
@@ -102,9 +102,11 @@ Este paquete implementa el nodo **`move_ur5`**, que crea el servicio **`activate
 
 Este paquete implementa dos nodos principales: **`navigate_to_goal.py`**, que ejecuta el algoritmo **secuencial**, y **`navigate_to_goal_v2.py`**, que implementa el algoritmo **paralelo**. Para ambos, es necesario ejecutar los siguientes archivos de lanzamiento: **`gazebo_launch.py`**, **`nav2_almacen_launch.py`**, **`move_rviz_launch.py`** (de **ur5_moveit_config**) y **`move_ur5`** para el servicio.
 
-##Adición de modelos en Gazebo
+---
+## Adición de modelos en Gazebo
 
-Para la correcta visualización en Gazebo, es necesario añadir a la ruta de Gazebo las carpetas que contienen modelos. Para ello ejecutar en una ventana de comando lso siguientes comandos: 
+Para la correcta visualización en Gazebo, es necesario añadir a la ruta de Gazebo las carpetas que contienen modelos. Para ello ejecutar en una ventana de comando los siguientes comandos: 
+
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/.gazebo/models
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/usr/share/gazebo-11/models
@@ -113,3 +115,5 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/ros2_ws/src/ur_description/mes
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/ros2_ws/src/husky_ur5/worlds
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/ros2_ws/src/husky_ur5/models
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/ros2_ws/install/robotiq_description/share
+
+Para guardar los cambios, ejecutar: source ~/.bashrc
