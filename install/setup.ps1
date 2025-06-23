@@ -28,7 +28,6 @@ _colcon_prefix_chain_powershell_source_script "/home/useradd/cypr_ws/install\loc
 _colcon_prefix_chain_powershell_source_script "/home/useradd/cypr_exam_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/useradd/evaluable_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/useradd/tfg_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/useradd/ros2_ws/src/husky_ur5/urdf/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/useradd/dev_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/useradd/ws_moveit2/install\local_setup.ps1"
 

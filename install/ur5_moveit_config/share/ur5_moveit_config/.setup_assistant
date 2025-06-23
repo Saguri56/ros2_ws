@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: husky_ur5
+    relative_path: urdf/husky_ur5_gazebo.urdf.xacro
+  srdf:
+    relative_path: config/husky_ur5_gazebo.srdf
+  package_settings:
+    author_name: salvador guerra
+    author_email: saguriguerra@gmail.com
+    generated_timestamp: 1749070714
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

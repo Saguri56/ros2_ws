@@ -1,0 +1,8 @@
+source;share/husky_ur5/hook/cmake_prefix_path.ps1
+source;share/husky_ur5/hook/cmake_prefix_path.dsv
+source;share/husky_ur5/hook/cmake_prefix_path.sh
+source;share/husky_ur5/local_setup.bash
+source;share/husky_ur5/local_setup.dsv
+source;share/husky_ur5/local_setup.ps1
+source;share/husky_ur5/local_setup.sh
+source;share/husky_ur5/local_setup.zsh

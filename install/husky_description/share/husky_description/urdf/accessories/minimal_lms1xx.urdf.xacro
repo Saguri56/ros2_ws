@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="minimal_lms1xx_lidar" params="parent_link lidar_name prefix:='' xyz:='0 0 0.1' rpy:='0 0 0'">
+
+    <link name="${prefix}${lidar_name}_link">
+      <visual>
+        <geometry>
+          <cylinder radius="0.03" length="0.05"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="0.03" length="0.05"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="0.5"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <joint name="${prefix}${lidar_name}_joint" type="fixed">
+      <parent link="${parent_link}"/>
+      <child link="${prefix}${lidar_name}_link"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+
+    <gazebo reference="${prefix}${lidar_name}_link">
+      <sensor name="${prefix}${lidar_name}_sensor" type="ray">
+        <pose>0 0 0 0 0 0</pose>
+        <update_rate>20</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>720</samples>
+              <resolution>1</resolution>
+              <min_angle>-1.5708</min_angle>
+              <max_angle>1.5708</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.05</min>
+            <max>20.0</max>
+            <resolution>0.01</resolution>
+          </range>
+        </ray>
+        <plugin name="${prefix}${lidar_name}_plugin" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=/scan</remapping>
+          </ros>
+          <update_rate>20</update_rate>
+          <frameName>${prefix}${lidar_name}_link</frameName>
+          <output_type>sensor_msgs/LaserScan</output_type>
+        </plugin>
+      </sensor>
+    </gazebo>
+
+  </xacro:macro>
+
+</robot>

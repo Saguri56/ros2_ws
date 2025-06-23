@@ -1,0 +1,16 @@
+/home/useradd/ros2_ws/install/move_ur5/lib/move_ur5/move_ur5
+/home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/package_run_dependencies/move_ur5
+/home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/parent_prefix_path/move_ur5
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.sh
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.dsv
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.sh
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.dsv
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.bash
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.sh
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.zsh
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.dsv
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.dsv
+/home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/packages/move_ur5
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config.cmake
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config-version.cmake
+/home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.xml

@@ -1,0 +1,4 @@
+[console_scripts]
+navigate_to_goal = robot_navigation.navigate_to_goal:main
+navigate_to_goal_v2 = robot_navigation.navigate_to_goal_v2:main
+

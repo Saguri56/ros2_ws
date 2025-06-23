@@ -1,0 +1,10 @@
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/uninstall.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/move_ur5_uninstall.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/move_ur5.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/test.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/edit_cache.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/rebuild_cache.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/list_install_components.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/install.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/install/local.dir
+/home/useradd/ros2_ws/build/move_ur5/CMakeFiles/install/strip.dir

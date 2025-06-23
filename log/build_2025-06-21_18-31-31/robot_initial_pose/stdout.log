@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_initial_pose/robot_initial_pose.egg-info
+writing ../../build/robot_initial_pose/robot_initial_pose.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_initial_pose/robot_initial_pose.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_initial_pose/robot_initial_pose.egg-info/entry_points.txt
+writing requirements to ../../build/robot_initial_pose/robot_initial_pose.egg-info/requires.txt
+writing top-level names to ../../build/robot_initial_pose/robot_initial_pose.egg-info/top_level.txt
+writing manifest file '../../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_initial_pose/robot_initial_pose.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/useradd/ros2_ws/build/robot_initial_pose/build
+creating /home/useradd/ros2_ws/build/robot_initial_pose/build/lib
+creating /home/useradd/ros2_ws/build/robot_initial_pose/build/lib/robot_initial_pose
+copying robot_initial_pose/initial_pose_publisher.py -> /home/useradd/ros2_ws/build/robot_initial_pose/build/lib/robot_initial_pose
+copying robot_initial_pose/__init__.py -> /home/useradd/ros2_ws/build/robot_initial_pose/build/lib/robot_initial_pose
+running install
+running install_lib
+creating /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+copying /home/useradd/ros2_ws/build/robot_initial_pose/build/lib/robot_initial_pose/initial_pose_publisher.py -> /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+copying /home/useradd/ros2_ws/build/robot_initial_pose/build/lib/robot_initial_pose/__init__.py -> /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose
+byte-compiling /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose/initial_pose_publisher.py to initial_pose_publisher.cpython-310.pyc
+byte-compiling /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/useradd/ros2_ws/install/robot_initial_pose/share/robot_initial_pose
+running install_egg_info
+Copying ../../build/robot_initial_pose/robot_initial_pose.egg-info to /home/useradd/ros2_ws/install/robot_initial_pose/lib/python3.10/site-packages/robot_initial_pose-0.0.0-py3.10.egg-info
+running install_scripts
+Installing initial_pose_publisher script to /home/useradd/ros2_ws/install/robot_initial_pose/lib/robot_initial_pose
+writing list of installed files to '/home/useradd/ros2_ws/build/robot_initial_pose/install.log'

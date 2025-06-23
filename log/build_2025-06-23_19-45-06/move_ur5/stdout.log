@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target move_ur5[0m
+[100%] Built target move_ur5
+-- Install configuration: ""
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/lib/move_ur5/move_ur5
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/package_run_dependencies/move_ur5
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/parent_prefix_path/move_ur5
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.sh
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.sh
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.dsv
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.bash
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.sh
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.zsh
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.dsv
+-- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.dsv
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/packages/move_ur5
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config.cmake
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config-version.cmake
+-- Up-to-date: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.xml

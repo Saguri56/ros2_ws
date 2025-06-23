@@ -1,0 +1,4 @@
+[01m[K/home/useradd/ros2_ws/src/move_ur5/src/move_ur5.cpp:[m[K In lambda function:
+[01m[K/home/useradd/ros2_ws/src/move_ur5/src/move_ur5.cpp:27:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |     [move_group_interface, logger]([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

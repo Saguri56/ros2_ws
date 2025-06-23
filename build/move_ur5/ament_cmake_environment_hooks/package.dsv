@@ -1,0 +1,4 @@
+source;share/move_ur5/local_setup.bash
+source;share/move_ur5/local_setup.dsv
+source;share/move_ur5/local_setup.sh
+source;share/move_ur5/local_setup.zsh

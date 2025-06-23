@@ -1,0 +1,94 @@
+[0.777s] Invoking command in '/home/useradd/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/robotiq_description
+[1.295s] -- The C compiler identification is GNU 11.4.0
+[3.355s] -- The CXX compiler identification is GNU 11.4.0
+[4.916s] -- Detecting C compiler ABI info
+[5.122s] -- Detecting C compiler ABI info - done
+[5.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.130s] -- Detecting C compile features
+[5.130s] -- Detecting C compile features - done
+[5.134s] -- Detecting CXX compiler ABI info
+[5.419s] -- Detecting CXX compiler ABI info - done
+[5.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.426s] -- Detecting CXX compile features
+[5.427s] -- Detecting CXX compile features - done
+[5.432s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.634s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.834s] -- Configuring done
+[5.837s] -- Generating done
+[5.839s] -- Build files have been written to: /home/useradd/ros2_ws/build/robotiq_description
+[5.844s] Invoked command in '/home/useradd/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/robotiq_description
+[5.846s] Invoking command in '/home/useradd/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/build/robotiq_description -- -j16 -l16
+[5.881s] Invoked command in '/home/useradd/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/build/robotiq_description -- -j16 -l16
+[5.883s] Invoking command in '/home/useradd/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/build/robotiq_description
+[5.891s] -- Install configuration: ""
+[5.891s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/config
+[5.892s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[5.893s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/launch
+[5.893s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[5.894s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[5.894s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes
+[5.895s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+[5.896s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[5.897s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[5.897s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[5.898s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[5.898s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[5.899s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[5.900s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[5.901s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[5.902s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[5.902s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[5.904s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[5.905s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[5.905s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[5.905s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[5.906s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[5.907s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[5.908s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[5.909s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[5.909s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+[5.910s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[5.911s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[5.912s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[5.913s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[5.913s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[5.914s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[5.917s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[5.921s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[5.922s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[5.923s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[5.924s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[5.926s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[5.933s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[5.934s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[5.935s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[5.936s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[5.938s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[5.940s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[5.942s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/rviz
+[5.942s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[5.943s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf
+[5.943s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[5.944s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[5.945s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[5.945s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[5.946s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[5.946s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[5.946s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[5.947s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[5.949s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[5.949s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/environment/path.sh
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.bash
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.sh
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[5.950s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/package.dsv
+[5.951s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[5.951s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[5.951s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[5.951s] -- Installing: /home/useradd/ros2_ws/install/robotiq_description/share/robotiq_description/package.xml
+[5.953s] Invoked command in '/home/useradd/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/build/robotiq_description

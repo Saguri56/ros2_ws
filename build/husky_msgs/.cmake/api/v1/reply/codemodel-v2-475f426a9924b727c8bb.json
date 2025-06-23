@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-34ed8b9f6698beb3d1c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "husky_msgs__py",
+					"jsonFile" : "directory-husky_msgs__py-128e7dc61dadd4c0e3fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/useradd/ros2_ws/build/husky_msgs/husky_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "husky_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_husky_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_husky_msgs_egg-0680a504749414d41523.json",
+					"name" : "ament_cmake_python_build_husky_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_husky_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_husky_msgs-3ba95594df87381753a4.json",
+					"name" : "ament_cmake_python_copy_husky_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs-c5e60cdf32a741f18b7c.json",
+					"name" : "husky_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__cpp-429c9636e03636176088.json",
+					"name" : "husky_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "husky_msgs__py::@15ff747a1fb7f012b2fc",
+					"jsonFile" : "target-husky_msgs__py-e779b818a79c38bdfca1.json",
+					"name" : "husky_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_generator_c-7521a22e2b281405518e.json",
+					"name" : "husky_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_generator_py-622c8a14ddce310cd152.json",
+					"name" : "husky_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_c-38bcb4e2d1993cf315be.json",
+					"name" : "husky_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_c__pyext-2209a1fff49066c7ec1a.json",
+					"name" : "husky_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_cpp-307b9d485322d4e7d61b.json",
+					"name" : "husky_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_fastrtps_c-b4a3d358ecd1fabed33b.json",
+					"name" : "husky_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_fastrtps_c__pyext-4bbb1cb20136b1561197.json",
+					"name" : "husky_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_fastrtps_cpp-4ba202549b86db191715.json",
+					"name" : "husky_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_introspection_c-c8f905cbb17cdc37d3c7.json",
+					"name" : "husky_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_introspection_c__pyext-a1d9f1ef1f6acbeebd7f.json",
+					"name" : "husky_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs__rosidl_typesupport_introspection_cpp-e97d70c524eea3f7f117.json",
+					"name" : "husky_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husky_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husky_msgs_uninstall-d672248fadee1de78c03.json",
+					"name" : "husky_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ebfa6f2b19bea5e4667.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/useradd/ros2_ws/build/husky_msgs",
+		"source" : "/home/useradd/ros2_ws/src/husky/husky_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

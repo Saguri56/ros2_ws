@@ -1,0 +1,1 @@
+rclcpp;nav2_simple_commander;geometry_msgs;tf2;tf2_geometry_msgs;tf2_ros;moveit_ros_planning_interface;husky_description;ur_description;gazebo_ros;rviz2;robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;controller_manager;ament_lint_auto;ament_lint_common

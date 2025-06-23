@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>move_ur5</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="useradd@todo.todo">useradd</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

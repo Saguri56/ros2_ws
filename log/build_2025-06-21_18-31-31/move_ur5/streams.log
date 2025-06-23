@@ -1,0 +1,79 @@
+[0.068s] Invoking command in '/home/useradd/ros2_ws/build/move_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/move_ur5 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/move_ur5
+[0.810s] -- The C compiler identification is GNU 11.4.0
+[2.384s] -- The CXX compiler identification is GNU 11.4.0
+[3.887s] -- Detecting C compiler ABI info
+[4.299s] -- Detecting C compiler ABI info - done
+[4.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.306s] -- Detecting C compile features
+[4.306s] -- Detecting C compile features - done
+[4.310s] -- Detecting CXX compiler ABI info
+[4.886s] -- Detecting CXX compiler ABI info - done
+[4.893s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.893s] -- Detecting CXX compile features
+[4.894s] -- Detecting CXX compile features - done
+[4.898s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.109s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.240s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.038s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.490s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.499s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.512s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.819s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[10.356s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.417s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.423s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[19.708s] -- Found FastRTPS: /opt/ros/humble/include  
+[25.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.931s] -- Found Threads: TRUE  
+[25.994s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[25.998s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[26.031s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[29.073s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[29.164s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[31.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[31.741s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[31.768s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[31.799s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[31.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[31.897s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/useradd/ros2_ws/src/move_ur5/include>
+[31.897s] -- Configured cppcheck exclude dirs and/or files: 
+[31.899s] -- Added test 'lint_cmake' to check CMake code style
+[31.901s] -- Added test 'uncrustify' to check C / C++ code style
+[31.901s] -- Configured uncrustify additional arguments: 
+[31.903s] -- Added test 'xmllint' to check XML markup files
+[31.906s] -- Configuring done
+[31.953s] -- Generating done
+[31.960s] -- Build files have been written to: /home/useradd/ros2_ws/build/move_ur5
+[31.972s] Invoked command in '/home/useradd/ros2_ws/build/move_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake /home/useradd/ros2_ws/src/move_ur5 -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/move_ur5
+[31.974s] Invoking command in '/home/useradd/ros2_ws/build/move_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/build/move_ur5 -- -j16 -l16
+[32.022s] [ 50%] [32mBuilding CXX object CMakeFiles/move_ur5.dir/src/move_ur5.cpp.o[0m
+[37.356s] [01m[K/home/useradd/ros2_ws/src/move_ur5/src/move_ur5.cpp:[m[K In lambda function:
+[37.356s] [01m[K/home/useradd/ros2_ws/src/move_ur5/src/move_ur5.cpp:27:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[37.356s]    27 |     [move_group_interface, logger]([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+[37.356s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[40.626s] [100%] [32m[1mLinking CXX executable move_ur5[0m
+[41.184s] [100%] Built target move_ur5
+[41.193s] Invoked command in '/home/useradd/ros2_ws/build/move_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --build /home/useradd/ros2_ws/build/move_ur5 -- -j16 -l16
+[41.195s] Invoking command in '/home/useradd/ros2_ws/build/move_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/build/move_ur5
+[41.202s] -- Install configuration: ""
+[41.202s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/lib/move_ur5/move_ur5
+[41.203s] -- Set runtime path of "/home/useradd/ros2_ws/install/move_ur5/lib/move_ur5/move_ur5" to ""
+[41.204s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/package_run_dependencies/move_ur5
+[41.204s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/parent_prefix_path/move_ur5
+[41.205s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.sh
+[41.205s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/ament_prefix_path.dsv
+[41.205s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.sh
+[41.205s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/environment/path.dsv
+[41.206s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.bash
+[41.206s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.sh
+[41.206s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.zsh
+[41.206s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/local_setup.dsv
+[41.207s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.dsv
+[41.207s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/ament_index/resource_index/packages/move_ur5
+[41.207s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config.cmake
+[41.207s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/cmake/move_ur5Config-version.cmake
+[41.208s] -- Installing: /home/useradd/ros2_ws/install/move_ur5/share/move_ur5/package.xml
+[41.210s] Invoked command in '/home/useradd/ros2_ws/build/move_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble /usr/bin/cmake --install /home/useradd/ros2_ws/build/move_ur5

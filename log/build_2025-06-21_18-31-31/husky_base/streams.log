@@ -1,0 +1,106 @@
+[0.458s] Invoking command in '/home/useradd/ros2_ws/build/husky_base': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/useradd/ros2_ws/src/husky/husky_base -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/husky_base
+[0.789s] -- The C compiler identification is GNU 11.4.0
+[2.237s] -- The CXX compiler identification is GNU 11.4.0
+[3.591s] -- Detecting C compiler ABI info
+[3.915s] -- Detecting C compiler ABI info - done
+[3.921s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.922s] -- Detecting C compile features
+[3.922s] -- Detecting C compile features - done
+[3.925s] -- Detecting CXX compiler ABI info
+[4.435s] -- Detecting CXX compiler ABI info - done
+[4.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.442s] -- Detecting CXX compile features
+[4.442s] -- Detecting CXX compile features - done
+[4.447s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.854s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[5.614s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.627s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.654s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.070s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.075s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.110s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.166s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.169s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.998s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.002s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.011s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.472s] -- Looking for pthread.h
+[10.754s] -- Looking for pthread.h - found
+[10.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.999s] -- Found Threads: TRUE  
+[11.069s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[11.131s] -- Found husky_msgs: 1.0.8 (/home/useradd/ros2_ws/install/husky_msgs/share/husky_msgs/cmake)
+[11.148s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.181s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[11.202s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[11.212s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.415s] -- Configuring done
+[11.440s] -- Generating done
+[11.445s] -- Build files have been written to: /home/useradd/ros2_ws/build/husky_base
+[11.459s] Invoked command in '/home/useradd/ros2_ws/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/useradd/ros2_ws/src/husky/husky_base -DCMAKE_INSTALL_PREFIX=/home/useradd/ros2_ws/install/husky_base
+[11.461s] Invoking command in '/home/useradd/ros2_ws/build/husky_base': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/useradd/ros2_ws/build/husky_base -- -j16 -l16
+[11.516s] [  8%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/husky_hardware.cpp.o[0m
+[11.517s] [ 16%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message.cpp.o[0m
+[11.517s] [ 33%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_data.cpp.o[0m
+[11.517s] [ 33%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Logger.cpp.o[0m
+[11.517s] [ 41%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy_wrapper.cpp.o[0m
+[11.518s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/crc.cpp.o[0m
+[11.518s] [ 58%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_cmd.cpp.o[0m
+[11.518s] [ 66%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Transport.cpp.o[0m
+[11.519s] [ 75%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_request.cpp.o[0m
+[11.521s] [ 83%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Number.cpp.o[0m
+[11.522s] [ 91%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/linux_serial.cpp.o[0m
+[15.240s] [100%] [32m[1mLinking CXX shared library libhusky_hardware.so[0m
+[15.521s] [100%] Built target husky_hardware
+[15.533s] Invoked command in '/home/useradd/ros2_ws/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/useradd/ros2_ws/build/husky_base -- -j16 -l16
+[15.534s] Invoking command in '/home/useradd/ros2_ws/build/husky_base': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/useradd/ros2_ws/build/husky_base
+[15.541s] -- Install configuration: ""
+[15.542s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/husky_hardware.xml
+[15.543s] -- Installing: /home/useradd/ros2_ws/install/husky_base/lib/libhusky_hardware.so
+[15.544s] -- Set runtime path of "/home/useradd/ros2_ws/install/husky_base/lib/libhusky_hardware.so" to ""
+[15.544s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include
+[15.544s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base
+[15.544s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/husky_diagnostics.h
+[15.544s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/clearpath.h
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/serial.h
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Exception.h
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Message_cmd.h
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Message.h
+[15.545s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/crc.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Logger.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Number.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Message_data.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Message_request.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy/Transport.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/husky_hardware.hpp
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/include/husky_base/horizon_legacy_wrapper.h
+[15.546s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/launch
+[15.547s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/launch/base.launch.py
+[15.547s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/library_path.sh
+[15.547s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/library_path.dsv
+[15.547s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/ament_index/resource_index/package_run_dependencies/husky_base
+[15.548s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/ament_index/resource_index/parent_prefix_path/husky_base
+[15.548s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/ament_prefix_path.sh
+[15.548s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/ament_prefix_path.dsv
+[15.548s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/path.sh
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/environment/path.dsv
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/local_setup.bash
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/local_setup.sh
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/local_setup.zsh
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/local_setup.dsv
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/package.dsv
+[15.549s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/ament_index/resource_index/packages/husky_base
+[15.550s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/husky_base
+[15.550s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.550s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/cmake/ament_cmake_export_libraries-extras.cmake
+[15.550s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.551s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/cmake/husky_baseConfig.cmake
+[15.551s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/cmake/husky_baseConfig-version.cmake
+[15.551s] -- Installing: /home/useradd/ros2_ws/install/husky_base/share/husky_base/package.xml
+[15.554s] Invoked command in '/home/useradd/ros2_ws/build/husky_base' returned '0': AMENT_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/useradd/ros2_ws/install/husky_msgs:/home/useradd/ws_moveit2/install/moveit_common:/home/useradd/dev_ws/install/ur5_ros2_moveit2:/home/useradd/dev_ws/install/ur5_ros2_gazebo:/home/useradd/dev_ws/install/ros2_actions:/home/useradd/dev_ws/install/ros2_data:/home/useradd/dev_ws/install/dsr_description2:/home/useradd/tfg_ws/install/husky_desktop:/home/useradd/tfg_ws/install/husky_viz:/home/useradd/tfg_ws/install/husky_simulator:/home/useradd/tfg_ws/install/husky_robot:/home/useradd/tfg_ws/install/husky_bringup:/home/useradd/tfg_ws/install/husky_base:/home/useradd/tfg_ws/install/husky_msgs:/home/useradd/tfg_ws/install/husky_gazebo:/home/useradd/tfg_ws/install/husky_control:/home/useradd/tfg_ws/install/husky_description:/home/useradd/evaluable_ws/install/arm_controller:/home/useradd/cyprgame_ws/install/warrior_21:/home/useradd/cyprgame_ws/install/rosgame_msgs:/home/useradd/cyprgame_ws/install/rosgame_bridge:/home/useradd/cypr_ws/install/navigation:/home/useradd/cypr_ws/install/motion:/home/useradd/cypr_ws/install/localization:/home/useradd/cypr_ws/install/keyboard_control:/home/useradd/cypr_exam_ws/install/my_pkg:/home/useradd/cypr_exam_ws/install/data_pkg:/home/useradd/ws_moveit2/install/launch_param_builder:/home/useradd/dev_ws/install/robot_description:/home/useradd/dev_ws/install/my_doosan_pkg:/home/useradd/dev_ws/install/mobile_manipulator:/home/useradd/dev_ws/install/doosan_description:/home/useradd/dev_ws/install/bulldog_description:/opt/ros/humble LD_LIBRARY_PATH=/home/useradd/ros2_ws/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/useradd/ros2_ws/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/useradd/ros2_ws/build/husky_base
